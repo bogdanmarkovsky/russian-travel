@@ -1,0 +1,11 @@
+.cover {
+  margin: auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width:1280px) {
+  .cover {
+    max-width: calc(100% - 48px*2);
+  }
+}
+

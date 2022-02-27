@@ -1,0 +1,12 @@
+.places-list__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .places-list__text  {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

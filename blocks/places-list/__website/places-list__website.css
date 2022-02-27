@@ -1,0 +1,13 @@
+.places-list__website {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .places-list__website {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

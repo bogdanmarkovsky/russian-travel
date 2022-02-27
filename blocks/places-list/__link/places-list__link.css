@@ -1,0 +1,15 @@
+.places-list__link {
+  align-self: auto;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: solid 1px;
+  width: fit-content;
+}
+
+.places-list__link:hover {
+  opacity: 0.8;
+}
